@@ -1,5 +1,5 @@
 {
-  "name": "my-input",
+  "name": "my-ninput",
   "version": "0.0.3",
   "description": "",
   "main": "index.js",
@@ -9,5 +9,5 @@
   "keywords": [],
   "author": "Shibin",
   "license": "MIT",
-  "gitHead": "2586e21b889e5332c74c00ab81ce7fa7fb9c7f0a"
+  "gitHead": "d736f3e40bfaadbeb9f2ae628d707bab2905f541"
 }
