@@ -1,0 +1,42 @@
+{
+  "name": "my-ui",
+  "version": "1.0.0",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "commit": "git-cz",
+    "lerna":"lerna publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shibin-cli/my-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shibin-cli/my-ui/issues"
+  },
+  "homepage": "https://github.com/shibin-cli/my-ui#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@storybook/addon-actions": "^6.1.10",
+    "@storybook/addon-essentials": "^6.1.10",
+    "@storybook/addon-links": "^6.1.10",
+    "@storybook/vue": "^6.1.10",
+    "babel-loader": "^8.2.2",
+    "lerna": "^3.22.1",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12",
+    "git-cz": "^4.7.6"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
+}
