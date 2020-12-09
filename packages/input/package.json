@@ -1,6 +1,6 @@
 {
-  "name": "my-form",
-  "version": "0.0.1",
+  "name": "my-input",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,5 @@
   },
   "keywords": [],
   "author": "Shibin",
-  "license": "MIT",
-  "gitHead": "7dbcd5f51a88bb75449ec5909c6311ef7d35df6a"
+  "license": "MIT"
 }

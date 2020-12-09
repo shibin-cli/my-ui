@@ -1,5 +1,5 @@
 {
-  "name": "my-button",
+  "name": "my-nbutton",
   "version": "0.0.1",
   "description": "button",
   "main": "index.js",
@@ -9,9 +9,10 @@
   "keywords": [
     "button"
   ],
-  "author": "shibin",
+  "author": "Shibin",
   "license": "MIT",
   "dependencies": {
     "lodash": "3"
-  }
+  },
+  "gitHead": "7dbcd5f51a88bb75449ec5909c6311ef7d35df6a"
 }
