@@ -1,6 +1,6 @@
 {
   "name": "my-nbutton",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "button",
   "main": "index.js",
   "scripts": {
