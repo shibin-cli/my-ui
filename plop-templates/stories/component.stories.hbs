@@ -1,0 +1,16 @@
+import My{{properCase name}} from '..'
+
+
+
+export default {
+    title: '{{properCase name}}',
+    conponent: My{{properCase name}}
+}
+
+const Template = (args, { argTypes }) => ({
+    props: Object.keys(argTypes),
+    components:  My{{properCase name}},
+    templage:`<my-{{name}}></my-{{name}}`
+  })
+
+export const {{properCase name}} = Template.bind({});

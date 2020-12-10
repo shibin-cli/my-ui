@@ -1,7 +1,7 @@
 import MyButton from '../'
 export default {
     title: 'MyButton',
-    conponent: MyButton,
+    component: MyButton,
     argTypes: {
         size: { control: { type: 'select', options: ['small', 'medium', 'large'] } },
       },
@@ -14,17 +14,17 @@ const Template = (args, { argTypes }) => ({
   });
   export const Primary = Template.bind({});
 
-  export const Large = Template.bind({});
-  Large.args = {
-    size: 'large',
-  };
-  export const Medium = Template.bind({});
-  Medium.args = {
-    size: 'medium',
-  };
+  // export const Large = Template.bind({});
+  // Large.args = {
+  //   size: 'large',
+  // };
+  // export const Medium = Template.bind({});
+  // Medium.args = {
+  //   size: 'medium',
+  // };
  
-  export const Small = Template.bind({});
-  Small.args = {
-    size: 'small',
-  };
+  // export const Small = Template.bind({});
+  // Small.args = {
+  //   size: 'small',
+  // };
  

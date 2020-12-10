@@ -12,7 +12,7 @@ export default {
 
 const Template = (args, { argTypes }) => ({
     props: Object.keys(argTypes),
-    components: { MyForm ,FormItem,MyInput},
+    components: { MyForm ,FormItem,MyInput,MyButton},
     template:` <my-form :model="user" :rules="rules" ref="form">
     <form-item label="用户名" prop="name">
       <my-input
