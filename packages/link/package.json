@@ -1,5 +1,5 @@
 {
-  "name": "my-link",
+  "name": "my-nlink",
   "version": "0.0.5",
   "description": "my-link component description",
   "main": "dist/cjs/index.js",
@@ -11,5 +11,6 @@
     "vue"
   ],
   "author": "Shibin",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "8fdee5dcf025517e9c92e38c8e9eb2a0480ecf57"
 }
